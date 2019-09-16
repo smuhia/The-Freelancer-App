@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/main_menu"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_Activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="206dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/reach_out"
+                android:layout_width="144dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="00dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageButton
+                    android:layout_width="144dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/reach_out" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/website"
+                android:layout_width="144dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="0dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageButton
+                    android:layout_width="144dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/website_btn" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/hire_card"
+                android:layout_marginTop="5dp"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="0dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/hire_btn" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fund_card"
+                android:layout_marginTop="5dp"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="0dp"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/fund_btn" />
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="131dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/advert_card"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="16dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/advert_btn" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/project_card"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="16dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/project_btn" />
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+            <ImageButton
+                android:layout_marginStart="120dp"
+                android:layout_marginLeft="100dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/facebook"/>
+            <ImageButton
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/insta"/>
+            <ImageButton
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/snapchat"/>
+            <ImageButton
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/twitter"/>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <ImageButton
+                android:id="@+id/exit_btn"
+                android:layout_marginStart="70dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="252dp"
+                android:layout_height="40dp"
+                android:src="@drawable/exit_btn"/>
+        </LinearLayout>
+
+        
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

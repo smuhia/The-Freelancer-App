@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "587986490009",
+    "firebase_url": "https://thefreelancer-7adf3.firebaseio.com",
+    "project_id": "thefreelancer-7adf3",
+    "storage_bucket": "thefreelancer-7adf3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587986490009:android:86185fb461c0a8d4",
+        "android_client_info": {
+          "package_name": "com.muhia.thefreelancer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587986490009-3aqoflu60tjn6kcldbmvij5om5dm3rjk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muhia.thefreelancer",
+            "certificate_hash": "d28315868503bc2d5245d7fd3e0c7910e0eaee9d"
+          }
+        },
+        {
+          "client_id": "587986490009-r49od0f62k0ras3p3kjn88tf0chtm2ed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8EJyoBhDlUBzOOSdjC1j4brisPpj474c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587986490009-r49od0f62k0ras3p3kjn88tf0chtm2ed.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScrollActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+
+            app:cardCornerRadius="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_width="350dp"
+            android:layout_height="460dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="280dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="35dp"
+                    android:background="@drawable/gaming"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/the_elite_controller"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/progress">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="26dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="10dp"
+                        android:text="78% funded"
+                        android:textColor="#337440"
+                        android:textSize="11sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="26dp"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="10dp"
+                        android:text="242 Backers"
+                        android:textColor="#000000"
+                        android:textSize="11sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="10dp"
+                        android:text="1 Week to go"
+                        android:textColor="#000000"
+                        android:textSize="11sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_width="163dp"
+                        android:layout_height="20dp"
+                        android:text="Created by Damian Dark"
+                        android:textColor="#771B1B1B" />
+                    <ImageButton
+                        android:background="@drawable/fund"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_width="110dp"
+                        android:layout_height="30dp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+
+            app:cardCornerRadius="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_width="350dp"
+            android:layout_height="460dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="280dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="35dp"
+                    android:background="@drawable/mockup_cover_spread"
+                    android:orientation="vertical">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/wierdo_the_magazine"
+                    android:orientation="vertical">
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/progress_a">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="26dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="10dp"
+                        android:text="40% funded"
+                        android:textColor="#337440"
+                        android:textSize="11sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="26dp"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="10dp"
+                        android:text="100 Backers"
+                        android:textColor="#000000"
+                        android:textSize="11sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="10dp"
+                        android:text="1 Month to go"
+                        android:textColor="#000000"
+                        android:textSize="11sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_width="163dp"
+                        android:layout_height="20dp"
+                        android:text="Created by Austin Evans"
+                        android:textColor="#771B1B1B" />
+                    <ImageButton
+                        android:background="@drawable/fund"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_width="110dp"
+                        android:layout_height="30dp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                app:cardCornerRadius="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_width="350dp"
+                android:layout_height="460dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="280dp"
+                        android:layout_height="280dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="35dp"
+                        android:background="@drawable/art"
+                        android:orientation="vertical">
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="35dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/the_photography_initiative"
+                        android:orientation="vertical">
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginRight="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/progress_b">
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="36dp"
+                            android:layout_height="26dp"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="120% funded"
+                            android:textColor="#337440"
+                            android:textSize="11sp"
+                            android:textStyle="italic" />
+
+                        <TextView
+                            android:layout_width="36dp"
+                            android:layout_height="26dp"
+                            android:layout_marginStart="100dp"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:text="689 Backers"
+                            android:textColor="#000000"
+                            android:textSize="11sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="100dp"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:text="1 day to go"
+                            android:textColor="#000000"
+                            android:textSize="11sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                        <TextView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_width="163dp"
+                            android:layout_height="20dp"
+                            android:text="Created by Fiona Njeri"
+                            android:textColor="#771B1B1B" />
+                        <ImageButton
+                            android:background="@drawable/fund"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_width="110dp"
+                            android:layout_height="30dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                app:cardCornerRadius="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="50dp"
+                android:layout_width="350dp"
+                android:layout_height="460dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="280dp"
+                        android:layout_height="280dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="35dp"
+                        android:background="@drawable/housing"
+                        android:orientation="vertical">
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="35dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/the_housing_initiative"
+                        android:orientation="vertical">
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginRight="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/progress_c">
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="36dp"
+                            android:layout_height="26dp"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="15% funded"
+                            android:textColor="#337440"
+                            android:textSize="11sp"
+                            android:textStyle="italic" />
+
+                        <TextView
+                            android:layout_width="36dp"
+                            android:layout_height="26dp"
+                            android:layout_marginStart="100dp"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:text="21 Backers"
+                            android:textColor="#000000"
+                            android:textSize="11sp"
+                            android:textStyle="italic" />
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="100dp"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:text="5 Month to go"
+                            android:textColor="#000000"
+                            android:textSize="11sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                        <TextView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_width="163dp"
+                            android:layout_height="20dp"
+                            android:text="Created by Ann Atuti"
+                            android:textColor="#771B1B1B" />
+                        <ImageButton
+                            android:background="@drawable/fund"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_width="110dp"
+                            android:layout_height="30dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+    
+
+
+
+
+</RelativeLayout>
